@@ -1,0 +1,249 @@
+﻿<!doctype html>
+<html lang="zxx">
+   
+	<head>
+		<div id="head-include"></div>
+		<script>        
+			fetch('head.html')
+				.then(response => response.text())
+				.then(data => {
+					document.getElementById('head-include').innerHTML = data;
+				});
+		</script>
+	</head>
+
+    <body>
+		<!-- Start Preloader Area -->
+		<div class="preloader">
+			<div class="lds-ripple">
+				<div class="pl-flip-1 pl-flip-2"></div>
+			</div>
+		</div>
+		<!-- End Preloader Area -->
+		
+		<div id="header-include"></div>
+		<script>        
+			fetch('header.html')
+				.then(response => response.text())
+				.then(data => {
+					document.getElementById('header-include').innerHTML = data;
+				});
+		</script>
+
+		<!-- Search Modal -->
+		<div class="modal fade search-modal-area" id="exampleModalsrc">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<button type="button" data-bs-dismiss="modal" class="closer-btn">
+						<i class="ri-close-line"></i>
+					</button>
+
+					<div class="modal-body">
+						<form class="search-box">
+							<div class="search-input">
+								<input type="text" name="Search" placeholder="Search for..." class="form-control">
+
+								<button type="submit" class="search-btn">
+									<i class="ri-search-line"></i>
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Search Modal -->
+
+		<!-- Start Banner Area -->
+		<section class="banner-area bg-1 jarallax" data-jarallax='{"speed": 0.3}'>
+			<div class="d-table">
+				<div class="d-table-cell">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="banner-content">
+									<span>Welcome to Public Policy Pathshala</span><br><br>
+									<h2>
+									Moving ahead with objective to facilitate national policy processes through policy research, policy dialogue, advocacy, knowledge management and evidence generation since last 12 years.
+								    </h2>
+									<div class="banner-btn">
+										<a href="about.php" class="default-btn">
+											About Public Policy Pathshala
+											<i class="ri-arrow-right-line"></i>
+										</a>
+									</div>
+
+									
+								</div>
+							</div><br>
+
+							<div class="col-lg-6">
+								<div class="banner-img">
+									<img src="assets/images/cb/index-ppp-team.jpg" alt="Image">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<ul class="social-link">
+				<li>
+					<a href="https://www.facebook.com/policypathshala" target="_blank">
+						Facebook
+					</a>
+				</li>
+				
+			</ul>
+		</section>
+		<!-- End Banner Area -->
+
+		<!-- Stat About Area -->
+		<section class="about-area ptb-100">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="about-img mr-15">
+							<img src="assets/images/cb/index-about.jpg" alt="Image">
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="about-content ml-15">
+							<span>About Public Policy Pathshala</span>
+							<h3>Public Policy Pathshala (PPP) is a research and policy institute. </h3>
+
+							<p>It was formed in 2010 AD with the initiation of young professionals. Its main objective is to facilitate national policy processes through policy research, policy dialogue, advocacy, knowledge management and evidence generation. PPP&#39;s main strength is its extensive network and ability to tap into the expertise and talents of a wide spectrum of professionals both inside and outside Nepal. Furthermore, PPP has been closely working with the government at all levels; federal, provincial, and local government, to provide help and support in a variety of areas, including conducting policy research, facilitating policy discussions, enhancing capacity, and supporting in the formulation of laws and policies.</p>
+							<a href="about.php" class="default-btn">
+								Find out more
+								<i class="ri-arrow-right-line"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End About Area -->
+		
+	
+
+		
+		<!-- End Study Area -->
+
+		
+
+		<!-- Start Events Area
+		<section class="events-area bg-color ptb-100">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-10">
+						<div class="events-content mr-15">
+							<span>Activities</span>
+							<h2>Our latest activities</h2>
+
+							<ul class="events-list">
+								<li>
+									<div class="events-date">
+										<span class="mb-2"></span>
+										<span>2022</span>
+									</div>
+
+									<span>1 August 2021 - 31 March 2022</span>
+									<h3>
+										<a href="event-details.html">
+										Strengthening Local Health Governance
+										</a>
+									</h3>
+									<p>Public Policy Pathshala has been providing technical assistance, and facilitating Selected Local governments on strengthening local health governance since February 15, 2018 in partnership with The Asia Foundation.</p>
+
+									
+								</li>
+
+								<li>
+									<div class="events-date">
+										<span class="mb-2"></span>
+										<span>2020</span>
+									</div>
+
+									<span>2020</span>
+									<h3>
+										<a href="event-details.html">
+										Study on status of returnee labour migrants during COVID-19
+										</a>
+									</h3>
+									<p>PPP conducted a research on returned labor migrant workers for Rural Enterprise and Remittance (RER)/SAMRIDDHI and The International Fund for Agricultural Development (IFAD). </p>
+								</li>
+
+								<li>
+									<div class="events-date">
+										<span class="mb-2"></span>
+										<span>2019</span>
+									</div>
+
+									<span>2019</span>
+									<h3>
+										<a href="event-details.html">
+										Strengthening Local Health Governance
+										</a>
+									</h3>
+									<p>Organized a Public Policy Dialogue (PPD) on “Pertinent Issues and Challenges of Public Health”. The key participants were: Members of Parliament (MP), former Health Ministers, government officials including the Health Secretary, prominent health experts, partner representatives, researchers and other relevant stakeholders </p>
+									
+								</li>
+
+								
+							</ul>
+						</div>
+					</div>
+
+					
+				</div>
+			</div>
+		</section>
+		End Events Area -->
+
+		<div id="footer-include"></div>
+		<script>        
+			fetch('footer.html')
+				.then(response => response.text())
+				.then(data => {
+					document.getElementById('footer-include').innerHTML = data;
+				});
+		</script>
+		
+		<!-- Start Go Top Area -->
+		<div class="go-top">
+			<i class="ri-arrow-up-s-fill"></i>
+			<i class="ri-arrow-up-s-fill"></i>
+		</div>
+		<!-- End Go Top Area -->
+
+        <!-- Jquery Min JS -->
+        <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script> 
+        <!-- Bootstrap Bundle Min JS -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- Meanmenu Min JS -->
+		<script src="assets/js/meanmenu.min.js"></script>
+		<!-- Owl Carousel Min JS -->
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<!-- Wow Min JS -->
+        <script src="assets/js/wow.min.js"></script>
+		<!-- Appear Min JS -->
+        <script src="assets/js/appear.min.js"></script>
+		<!-- Odometer Min JS -->
+        <script src="assets/js/odometer.min.js"></script>
+		<!-- Jarallax Min JS -->
+        <script src="assets/js/jarallax.min.js"></script>
+		<!-- Bootstrap Datepicker Min JS -->
+        <script src="assets/js/bootstrap-datepicker.min.js"></script>
+		<!-- Magnific Popup Min JS -->
+        <script src="assets/js/magnific-popup.min.js"></script>
+		<!-- Form Validator Min JS -->
+		<script src="assets/js/form-validator.min.js"></script>
+		<!-- Contact JS -->
+		<script src="assets/js/contact-form-script.js"></script>
+		<!-- Ajaxchimp Min JS -->
+		<script src="assets/js/ajaxchimp.min.js"></script>
+        <!-- Custom JS -->
+		<script src="assets/js/custom.js"></script>
+    </body>
+</html>
