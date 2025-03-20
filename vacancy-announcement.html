@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<div id="head-include"></div>
+		<script>        
+			fetch('head.html')
+				.then(response => response.text())
+				.then(data => {
+					document.getElementById('head-include').innerHTML = data;
+				});
+		</script>
+	</head>
+
+    <body>
+		<div id="header-include"></div>
+		<script>        
+			fetch('header.html')
+				.then(response => response.text())
+				.then(data => {
+					document.getElementById('header-include').innerHTML = data;
+				});
+		</script>
+
+		<!-- Search Modal -->
+		<div class="modal fade search-modal-area" id="exampleModalsrc">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<button type="button" data-bs-dismiss="modal" class="closer-btn">
+						<i class="ri-close-line"></i>
+					</button>
+
+					<div class="modal-body">
+						<form class="search-box">
+							<div class="search-input">
+								<input type="text" name="Search" placeholder="Search for..." class="form-control">
+
+								<button type="submit" class="search-btn">
+									<i class="ri-search-line"></i>
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Search Modal -->
+
+		<!-- Start Page Title Area -->
+		<div class="page-title-area bg-9">
+			<div class="container">
+				<div class="page-title-content">
+					<h2>Vacancy Announcement</h2>
+
+					<ul>
+						<li>
+							<a href="index.html">
+								Home 
+							</a>
+						</li>
+
+						<li class="active">Vacancy Announcement</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End Page Title Area -->
+
+		<!-- Start Campus Experience Area -->
+		
+		<!-- End Campus Experience Area -->
+
+		<!-- Start Admissions Area -->
+		<section class="admissions-area ptb-100">
+			<section class="studys-area pb-70">
+				<div class="container">
+					
+					<div class="row justify-content-center">
+						<div class="col-lg-6 col-md-6">
+							<div class="single-study study-f3f3f4">
+								<i class="flaticon-contract"></i>
+								<h3>
+									<a href="vacancy.html">Waling & Tansen Municipality</a>
+								</h3>
+								<p>Public Policy Pathshala (PPP) has partnered with Australian Government, Department of Foreign Affairs and Trade (DFAT), The Asia Foundation – Sub-national Governance Program (SNGP) phase II to promote and strengthen public health system governance at the subnational level with institutionalization of necessary health legislations and capacitating them on their health sector programming and functions to effectively implement the mandates toward improved access to quality public health services. The program demands public health officers each primarily designated at Waling & Tansen Municipality.</p>
+								
+								
+							</div>
+						</div>
+	
+						<div class="col-lg-6 col-md-6">
+							<div class="single-study study-f3f3f4">
+								<i class="flaticon-contract"></i>
+								<h3>
+									<a href="vacancy-damak.html">Damak Municipality</a>
+								</h3>
+								<p>To develop and disseminate knowledge through research, publication, campaign and dialogue among key stakeholders in Society.</p>
+								
+							</div>
+						</div>						
+					</div>
+				</div>
+			</section>
+		</section>
+	
+		<div id="footer-include"></div>
+		<script>        
+			fetch('footer.html')
+				.then(response => response.text())
+				.then(data => {
+					document.getElementById('footer-include').innerHTML = data;
+				});
+		</script>
+		<!-- End Copy Right Area -->
+		
+		<!-- Start Go Top Area -->
+		<div class="go-top">
+			<i class="ri-arrow-up-s-fill"></i>
+			<i class="ri-arrow-up-s-fill"></i>
+		</div>
+		<!-- End Go Top Area -->
+
+        <!-- Jquery Min JS -->
+        <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script> 
+        <!-- Bootstrap Bundle Min JS -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- Meanmenu Min JS -->
+		<script src="assets/js/meanmenu.min.js"></script>
+		<!-- Owl Carousel Min JS -->
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<!-- Wow Min JS -->
+        <script src="assets/js/wow.min.js"></script>
+		<!-- Appear Min JS -->
+        <script src="assets/js/appear.min.js"></script>
+		<!-- Odometer Min JS -->
+        <script src="assets/js/odometer.min.js"></script>
+		<!-- Jarallax Min JS -->
+        <script src="assets/js/jarallax.min.js"></script>
+		<!-- Bootstrap Datepicker Min JS -->
+        <script src="assets/js/bootstrap-datepicker.min.js"></script>
+		<!-- Magnific Popup Min JS -->
+        <script src="assets/js/magnific-popup.min.js"></script>
+		<!-- Form Validator Min JS -->
+		<script src="assets/js/form-validator.min.js"></script>
+		<!-- Contact JS -->
+		<script src="assets/js/contact-form-script.js"></script>
+		<!-- Ajaxchimp Min JS -->
+		<script src="assets/js/ajaxchimp.min.js"></script>
+        <!-- Custom JS -->
+		<script src="assets/js/custom.js"></script>
+    </body>
+</html>
